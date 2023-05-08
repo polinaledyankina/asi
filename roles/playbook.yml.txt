@@ -1,7 +1,7 @@
 ---
 -hosts: servers
  become: yes
- name: Update Centos \OS on servers
+ name: Update CentosOS on servers
 
  roles: 
    -centos-update
