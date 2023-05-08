@@ -1,0 +1,7 @@
+
+===
+-name: Update CentOS
+ become: true
+ yum
+   name: '*'
+   state: latest
